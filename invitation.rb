@@ -6,11 +6,11 @@ guest_name = gets.chomp.capitalize
 
 party_name = "Best Halloween Party Ever"
 
-date = gets.chomp
+date = "October 31"
 
-time = gets.chomp
+time = "6pm"
 
-host_name = gets.chomp.capitalize
+host_name = "Harry Potter"
 
 puts "Dear " + guest_name + ","
 puts "You are cordially invited to the " + party_name + " on " + date + " at " + time + ". Please RSVP no later than the day before the party."
